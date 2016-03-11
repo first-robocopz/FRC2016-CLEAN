@@ -1,21 +1,18 @@
-#ifndef COMMAND_BASE_H
-#define COMMAND_BASE_H
+#pragma once
 
+#include "OI.h"
 #include "Subsystems/DriveTrain.h"
 #include "Subsystems/ShootPlatform.h"
 
-#include <string>
-#include "Commands/Command.h"
-#include "OI.h"
-#include "WPILib.h"
+#include <Buttons/JoystickButton.h>
+#include <Commands/Command.h>
 
 /**
  * The base for all commands. All atomic commands should subclass CommandBase.
  * CommandBase stores creates and stores each control system. To access a
  * subsystem elsewhere in your code in your code use CommandBase.examplesubsystem
  */
-class CommandBase: public Command
-{
+class CommandBase : public Command {
 public:
 	CommandBase(char const *name);
 	CommandBase();
@@ -25,5 +22,3 @@ public:
 	static OI *oi;
 	static ShootPlatform *shootplatform;
 };
-
-#endif

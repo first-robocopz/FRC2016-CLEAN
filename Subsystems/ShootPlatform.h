@@ -1,7 +1,9 @@
 #pragma once
 
 #include <Commands/Subsystem.h>
-#include "WPILib.h"
+#include <SpeedController.h>
+#include <Buttons/JoystickButton.h>
+#include <Servo.h>
 
 class ShootPlatform : public Subsystem {
 private:

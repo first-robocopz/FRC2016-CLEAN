@@ -1,12 +1,7 @@
 #include "DriveTrain.h"
+
 #include "../RobotMap.h"
 #include "../Commands/DrivewithJoystick.h"
-
-double driveleftval;
-double driverightval;
-double driveblval;
-double drivebrval;
-
 
 DriveTrain::DriveTrain() :
 Subsystem("DriveTrain") {

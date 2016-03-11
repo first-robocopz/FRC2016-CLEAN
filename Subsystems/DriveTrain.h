@@ -1,7 +1,11 @@
 #pragma once
 
 #include "Commands/Subsystem.h"
-#include "WPILib.h"
+
+#include <SpeedController.h>
+#include <RobotDrive.h>
+#include <Joystick.h>
+#include <Buttons/JoystickButton.h>
 
 class DriveTrain: public Subsystem {
 private:

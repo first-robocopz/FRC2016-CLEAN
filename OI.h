@@ -1,7 +1,7 @@
-#ifndef OI_H
-#define OI_H
+#pragma once
 
-#include "WPILib.h"
+#include <Joystick.h>
+#include <Buttons/JoystickButton.h>
 
 class OI{
 private:
@@ -45,5 +45,3 @@ public:
 	JoystickButton* GetButtonSr();
 
 };
-
-#endif

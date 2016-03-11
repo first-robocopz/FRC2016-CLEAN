@@ -1,8 +1,9 @@
 #include "Shoot.h"
+
 #include "../OI.h"
 #include "../Subsystems/ShootPlatform.h"
 
-Shoot::Shoot(){
+Shoot::Shoot() {
 	// Use Requires() here to declare subsystem dependencies
 	// eg. Requires(chassis);
 	Requires(shootplatform);

@@ -1,10 +1,8 @@
 #pragma once
 
 #include "../CommandBase.h"
-#include "WPILib.h"
 
-class Shoot: public CommandBase
-{
+class Shoot : public CommandBase {
 public:
 	Shoot();
 	void Initialize();

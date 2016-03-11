@@ -1,8 +1,6 @@
-#ifndef MoveForward_H
-#define MoveForward_H
+#pragma once
 
 #include "../CommandBase.h"
-#include "WPILib.h"
 
 class MoveForward: public CommandBase
 {
@@ -14,5 +12,3 @@ public:
 	void End();
 	void Interrupted();
 };
-
-#endif

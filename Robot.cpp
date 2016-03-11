@@ -6,6 +6,7 @@
 #include <string.h>
 #include "RobotMap.h"
 #include "Commands/MoveForward.h"
+
 class Robot: public IterativeRobot
 {
 
@@ -54,11 +55,11 @@ private:
 
 	void TeleopInit()
 	{
-		SmartDashboard::PutNumber("Forward Button Speed", forwardrate);
+		/*SmartDashboard::PutNumber("Forward Button Speed", forwardrate);
 		SmartDashboard::PutNumber("Backwards Button Speed", backwardrate);
 		SmartDashboard::PutNumber("Turn Buttons Slow Speed", turnRate);
 		SmartDashboard::PutNumber("Turn Buttons Fast Speed", turnRatef);
-		SmartDashboard::PutNumber("Slide Button Speed", slideRate);
+		SmartDashboard::PutNumber("Slide Button Speed", slideRate);*/
 
 		// This makes sure that the autonomous stops running when
 		// teleop starts running. If you want the autonomous to 

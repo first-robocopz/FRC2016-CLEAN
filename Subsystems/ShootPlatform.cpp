@@ -1,6 +1,9 @@
 #include "ShootPlatform.h"
+
 #include "../RobotMap.h"
 #include "../Commands/Shoot.h"
+
+#include <Talon.h>
 
 ShootPlatform::ShootPlatform() :
 Subsystem("ShootPlatform") {
