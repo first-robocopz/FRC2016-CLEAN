@@ -14,7 +14,10 @@ const int ServoLeft = 4;
 const int ServoRight = 5;
 
 //autonomous variables
-const float autonomousTime = 12.5;
+const float autonomousTime = 12.5f;
+
+//float platform_firepower = 1.0f;
+//float platform_loadpower = 1.0f;
 
 // If you are using multiple modules, make sure to define both the port
 // number and the module. For example you with a rangefinder:
